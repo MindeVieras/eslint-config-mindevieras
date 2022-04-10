@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-album",
   "version": "1.0.0",
-  "description": "Shareable ESLint configuration for project 'Album'.",
+  "description": "Shareable ESLint and Prettier configuration for project 'Album'.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,13 @@
     "url": "git+https://github.com/MindeVieras/eslint-config-album.git"
   },
   "keywords": [
+    "javascript",
+    "typescript",
+    "ecmascript",
     "eslint",
+    "lint",
     "config",
+    "prettier",
     "album"
   ],
   "author": "Minde Vieras",
