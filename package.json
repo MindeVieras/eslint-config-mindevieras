@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/MindeVieras/eslint-config-album/issues"
   },
-  "homepage": "https://github.com/MindeVieras/eslint-config-album#readme"
+  "homepage": "https://github.com/MindeVieras/eslint-config-album#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-plugin-jsdoc": "^39.2.9",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  }
 }
