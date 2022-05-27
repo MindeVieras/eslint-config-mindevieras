@@ -4,7 +4,8 @@
   "description": "Shareable ESLint and Prettier configuration for project 'Album'.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
     "typescript",
     "ecmascript",
     "eslint",
+    "eslintconfig",
     "lint",
     "config",
     "prettier",
