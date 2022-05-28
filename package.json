@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-album",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "description": "Shareable ESLint and Prettier configuration for project 'Album'.",
   "main": "index.js",
   "scripts": {
