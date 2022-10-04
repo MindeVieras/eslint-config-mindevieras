@@ -7,6 +7,7 @@ module.exports = {
     'plugin:jsdoc/recommended',
   ],
   rules: {
+    '@typescript-eslint/consistent-type-imports': 'warn',
     'jsdoc/tag-lines': 0,
     'prettier/prettier': [
       'error',
