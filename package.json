@@ -28,7 +28,7 @@
     "url": "https://github.com/MindeVieras/eslint-config-album/issues"
   },
   "homepage": "https://github.com/MindeVieras/eslint-config-album#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
