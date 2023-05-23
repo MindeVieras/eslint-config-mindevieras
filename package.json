@@ -1,15 +1,11 @@
 {
-  "name": "eslint-config-album",
-  "version": "1.3.0",
-  "description": "Shareable ESLint and Prettier configuration for project 'Album'.",
+  "name": "eslint-config-mindev",
+  "version": "2.0.0",
+  "description": "Shareable ESLint and Prettier configuration for TypeScript projects.",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MindeVieras/eslint-config-album.git"
+    "url": "git+https://github.com/MindeVieras/eslint-config-mindev.git"
   },
   "keywords": [
     "javascript",
@@ -19,22 +15,26 @@
     "eslintconfig",
     "lint",
     "config",
-    "prettier",
-    "album"
+    "prettier"
   ],
   "author": "Minde Vieras",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MindeVieras/eslint-config-album/issues"
+    "url": "https://github.com/MindeVieras/eslint-config-mindev/issues"
   },
-  "homepage": "https://github.com/MindeVieras/eslint-config-album#readme",
+  "homepage": "https://github.com/MindeVieras/eslint-config-mindev#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-jsdoc": "^40.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsdoc": "^44.2.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.6"
   }
 }
