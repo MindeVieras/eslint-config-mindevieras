@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-mindev",
-  "version": "2.0.0",
+  "name": "@mindevieras/eslint-config-mindevieras",
+  "version": "2.0.1",
   "description": "Shareable ESLint and Prettier configuration for TypeScript projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MindeVieras/eslint-config-mindev.git"
+    "url": "git+https://github.com/MindeVieras/eslint-config-mindevieras.git"
   },
   "keywords": [
     "javascript",
@@ -20,9 +20,9 @@
   "author": "Minde Vieras",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MindeVieras/eslint-config-mindev/issues"
+    "url": "https://github.com/MindeVieras/eslint-config-mindevieras/issues"
   },
-  "homepage": "https://github.com/MindeVieras/eslint-config-mindev#readme",
+  "homepage": "https://github.com/MindeVieras/eslint-config-mindevieras#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
@@ -36,5 +36,9 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

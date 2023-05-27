@@ -1,4 +1,4 @@
-# eslint-config-mindev
+# eslint-config-mindevieras
 
 Shared ESLint configuration for TypeScript projects.
 
@@ -13,14 +13,14 @@ Shared ESLint configuration for TypeScript projects.
 1. Install the package using npm:
 
    ```bash
-   npm install -D github:MindeVieras/eslint-config-mindev
+   npm install -D github:MindeVieras/eslint-config-mindevieras
    ```
 
 2. Create a `.eslintrc` file in the root directory of your project (where `package.json` resides). Add the following content to the `.eslintrc` file:
 
    ```json
    {
-     "extends": [ "mindev" ]
+     "extends": [ "mindevieras" ]
    }
    ```
 
@@ -58,19 +58,29 @@ Example `.eslintrc` file:
 2. Open the `.vscode/settings.json` file in your project and add the following settings:
 
    ```json
-   {
-     "editor.tabSize": 2,
-     "editor.insertSpaces": true,
-     "editor.detectIndentation": false,
-     "editor.formatOnSave": true,
-     "files.insertFinalNewline": true,
-     "[javascript]": {
-       "editor.formatOnSave": false
-     },
-     "editor.codeActionsOnSave": {
-       "source.fixAll": true
-     }
-   }
+    {
+      "editor.formatOnSave": true,
+      "[javascript]": {
+        "editor.formatOnSave": false,
+      },
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "editor.autoIndent": "full",
+      "editor.insertSpaces": true,
+      "editor.formatOnPaste": false,
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.renderWhitespace": "boundary",
+      "editor.wordWrap": "off",
+      "editor.detectIndentation": true,
+      "editor.rulers": [
+        120
+      ],
+      "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true
+      },
+    }
    ```
 
 3. Restart Visual Studio Code for the changes to take effect.
