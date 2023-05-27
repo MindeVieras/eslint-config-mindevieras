@@ -13,14 +13,14 @@ Shared ESLint configuration for TypeScript projects.
 1. Install the package using npm:
 
    ```bash
-   npm install -D github:MindeVieras/eslint-config-mindevieras
+   npm install -D @mindevieras/eslint-config-mindevieras
    ```
 
 2. Create a `.eslintrc` file in the root directory of your project (where `package.json` resides). Add the following content to the `.eslintrc` file:
 
    ```json
    {
-     "extends": [ "mindevieras" ]
+     "extends": [ "@mindevieras/eslint-config-mindevieras" ]
    }
    ```
 
@@ -43,10 +43,9 @@ Example `.eslintrc` file:
 
 ```json
 {
-  "extends": ["mindev"],
+  "extends": ["@mindevieras/eslint-config-mindevieras"],
   "rules": {
     "no-console": 2,
-    // other rules to override
   }
 }
 ```
