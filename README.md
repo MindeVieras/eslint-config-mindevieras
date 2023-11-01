@@ -20,7 +20,9 @@ Shared ESLint configuration for TypeScript projects.
 
    ```json
    {
-     "extends": [ "@mindevieras/eslint-config-mindevieras" ]
+     "extends": [ "@mindevieras/eslint-config-mindevieras" ],
+     // Or:
+     "extends": [ "@mindevieras/eslint-config-mindevieras/react" ],
    }
    ```
 
